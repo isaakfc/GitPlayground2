@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6A3823AD2B6C3A4F00EE1D5D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3823AC2B6C3A4F00EE1D5D /* main.cpp */; };
+		6A3823B52B6C46AA00EE1D5D /* RocketLauncher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3823B32B6C46AA00EE1D5D /* RocketLauncher.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		6A3823A92B6C3A4F00EE1D5D /* Rocket */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Rocket; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A3823AC2B6C3A4F00EE1D5D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6A3823B32B6C46AA00EE1D5D /* RocketLauncher.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RocketLauncher.cpp; sourceTree = "<group>"; };
+		6A3823B42B6C46AA00EE1D5D /* RocketLauncher.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RocketLauncher.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				6A3823AC2B6C3A4F00EE1D5D /* main.cpp */,
+				6A3823B32B6C46AA00EE1D5D /* RocketLauncher.cpp */,
+				6A3823B42B6C46AA00EE1D5D /* RocketLauncher.hpp */,
 			);
 			path = Rocket;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A3823AD2B6C3A4F00EE1D5D /* main.cpp in Sources */,
+				6A3823B52B6C46AA00EE1D5D /* RocketLauncher.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
