@@ -10,5 +10,6 @@
 int main(int argc, const char * argv[]) {
     
     std::cout << "Hello, this is my rocket!!!!!\n";
+    std::cout << "Hello, this is my rocket!!!!!\n";
     return 0;
 }
