@@ -10,4 +10,6 @@
 
 #include <stdio.h>
 
+std::cout << "HELLO" << std::endl;
+
 #endif /* RocketLauncher_hpp */
